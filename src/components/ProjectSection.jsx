@@ -15,7 +15,8 @@ const ProjectSection = () => {
           </div>
             <Col md={6}>
             <div className="project-image1">
-            <img src="/images/project1.png" alt="Profile" />
+            <img src={`${import.meta.env.BASE_URL}images/project1.png`} alt="description" />
+
             </div>
             <div className='studio-text'>
               <h2 >Creative Studio Website</h2>
@@ -24,7 +25,7 @@ const ProjectSection = () => {
             </Col>
             <Col md={6}>
             <div className="project-image2">
-            <img src="/images/project2.png" alt="Profile" />
+            <img src={`${import.meta.env.BASE_URL}images/project2.png`} alt="description" />
             <div className='studio-text2'>
               <h2 >Creative Studio Website</h2>
               <p> Website Design</p>
@@ -41,7 +42,7 @@ const ProjectSection = () => {
           <Row>
             <Col md={6}>
             <div className="project-image3">
-            <img src="/images/project1.png" alt="Profile" />
+            <img src={`${import.meta.env.BASE_URL}images/project1.png`} alt="description" />
             </div>
             <div className='studio-text'>
               <h2 >Creative Studio Website</h2>
@@ -50,7 +51,7 @@ const ProjectSection = () => {
             </Col>
             <Col md={6}>
             <div className="project-image4">
-            <img src="/images/project2.png" alt="Profile" />
+            <img src={`${import.meta.env.BASE_URL}images/project2.png`} alt="description" />
             <div className='studio-text2'>
               <h2 >Creative Studio Website</h2>
               <p> Website Design</p>

@@ -9,7 +9,9 @@ const IntroductionSection = () => {
       <div className="intro-content">
       <Col md ={6} lg={6}>
         <div className="intro-image" id="contact">
-          <img src="/images/profile.png" alt="Profile" />
+          {/* <img src="/images/profile.png" alt="Profile" /> */}
+          <img src={`${import.meta.env.BASE_URL}images/profile.png`} alt="Profile" />
+
         </div>
         </Col>
         <Col md ={6} lg={6}>
