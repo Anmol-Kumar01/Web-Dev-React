@@ -1,0 +1,20 @@
+/* Style for the DesignBox component */
+.design-box {
+    padding: 20px;
+    text-align: center;
+    background-color: #1a1919;
+    /* margin-top: 20px; */
+    /* border-radius: 8px; */
+  }
+  
+  .design-box h2 {
+    margin: 0;
+    font-size: 36px;
+    color: #333;
+  }
+  
+  .design-box p {
+    font-size: 24px;
+    color: #666;
+  }
+  
