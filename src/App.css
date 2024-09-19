@@ -20,6 +20,7 @@ body {
     font-size: 80px;
   }
 
+
   
   .contact-btn {
     background-color: black;
@@ -43,6 +44,8 @@ body {
     background-color: #0c0c0d;
     color: rgb(231, 237, 237);
     font-family: 'Times New Roman', Times, serif;
+    margin-right: 150px;
+    margin-left: 150px;
     
   }
   
@@ -55,6 +58,7 @@ body {
   font-weight: bold;
   padding: 10px;
   font-size: 100px;
+
   }
   
   .intro-container {
